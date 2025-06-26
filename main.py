@@ -5,7 +5,7 @@ import time
 import json
 
 # Carrega respostas
-with open("responses/rules.json", encoding="utf-8") as f:
+with open("rules.json", encoding="utf-8") as f:
     rules = json.load(f)
 
 # Inicia navegador
